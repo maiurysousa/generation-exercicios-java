@@ -41,8 +41,11 @@ public class Paciente {
 	
 	public void testeFebre()
 	{
-		if(temperatura>37.5) {
+		if(temperatura>37.8) {
 			System.out.println("O paciente está com febre e necessita de medicação!");
+		}
+		else if(temperatura<35){
+			System.out.println("O paciente está com hipotermia e necessita dos cuidados necessários!");
 		}
 		else {
 			System.out.println("O paciente está de alta e pode ser liberado!");
