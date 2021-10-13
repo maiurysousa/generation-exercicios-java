@@ -2,69 +2,21 @@ package polimorfismoExercicio2;
 
 public class Cachorro extends AnimalPoli{
 	
-	private String abanarRabo;
-	
 	public Cachorro()
 	{
-		super("Animal Cachorro");
+		super("Cachorro");
 	}
 
-	@Override //indicação de método polimorfico (sobrescrita de métodos)
-	public void emitirSom(String som)
+	@Override 
+	public void emitirSom()
 	{
-		//ver o que colocar aqui
+		System.out.println("\n AU AU!! AU AU...");
 	}
-
+	
 	@Override
-	public void correr (int velocidade)
+	public void animal(String tipo)
 	{
-		//ver o que colocar aqui
+		System.out.println("\nO animal é um cachorro.");
 	}
 
-	public String getAbanarRabo() {
-		return abanarRabo;
-	}
-
-	public void setAbanarRabo(String abanarRabo) {
-		this.abanarRabo = abanarRabo;
-	}
-	
-
-	
-	/*private String correr;
-	private String abanarRabo;
-			
-	public Cachorro(String nome, int idade, String emitirSom, String correr, String abanarRabo)
-	{
-		super(nome,idade,emitirSom);
-		this.abanarRabo = abanarRabo;
-		this.correr = correr;
-		
-	}
-	
-	public void imprimirInfo()
-	{
-		System.out.println("\nNome: "+getNome()
-		+"\nIdade: "+getIdade()+" anos"
-		+"\nLate: "+ getEmitirSom()
-		+"\nVelocidade atingida: "+ correr+"km/h"
-		+"\nAbana o rabo: "+ abanarRabo);	
-	}
-
-	public String getCorrer() {
-		return correr;
-	}
-
-	public void setCorrer(String correr) {
-		this.correr = correr;
-	}
-
-	public String getAbanarRabo() {
-		return abanarRabo;
-	}
-
-	public void setAbanarRabo(String abanarRabo) {
-		this.abanarRabo = abanarRabo;
-	}		*/
-	
 }

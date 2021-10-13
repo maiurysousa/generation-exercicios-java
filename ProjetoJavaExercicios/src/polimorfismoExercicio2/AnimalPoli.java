@@ -4,8 +4,8 @@ public abstract class AnimalPoli {
 	
 	private String tipoAnimal;
 	
-	abstract public void emitirSom(String som);
-	abstract public void correr (int velocidade);
+	abstract public void emitirSom();
+	abstract public void animal(String tipo);
 	
 	public AnimalPoli(String tipoAnimal)
 	{
@@ -19,5 +19,6 @@ public abstract class AnimalPoli {
 	public void setTipoAnimal(String tipoAnimal) {
 		this.tipoAnimal = tipoAnimal;
 	}
+
 }
 

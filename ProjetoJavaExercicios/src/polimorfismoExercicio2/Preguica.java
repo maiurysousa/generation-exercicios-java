@@ -1,51 +1,23 @@
 package polimorfismoExercicio2;
 
-	public abstract class Preguica extends AnimalPoli {
+	public class Preguica extends AnimalPoli {
 		
-		
-		private String escalar;
-		
+	
 		public Preguica()
 		{
 			super("Animal Preguiça");
 		}
 
-		@Override //indicação de método polimorfico (sobrescrita de métodos)
-		public void emitirSom(String som)
+		@Override 
+		public void emitirSom()
 		{
-			//ver o que colocar aqui
+			System.out.println("\nÃÃÃHHHHH...");
 		}
 		
-
-		public String getEscalar() {
-			return escalar;
-		}
-
-		public void setEscalar(String escalar) {
-			this.escalar = escalar;				
+		@Override
+		public void animal(String tipo)
+		{
+			System.out.println("\nO animal é um preguica.");
 		}
 		
-		/*public Preguica (String nome, int idade, String emitirSom, String escalar)
-		{
-			super(nome,idade,emitirSom);
-			this.escalar = escalar;
-		}
-		
-		public void imprimirInfo()
-		{
-			System.out.println("\nNome do animal: "+getNome()
-			+"\nIdade: "+getIdade()+" anos"
-			+"\nEmite som: "+ getEmitirSom()
-			+"\nEscala árvores: "+escalar);
-		}
-
-
-		public String getEscalar() {
-			return escalar;
-		}
-
-		public void setEscalar(String escalar) {
-			this.escalar = escalar;
-		}
-		*/	
 }
