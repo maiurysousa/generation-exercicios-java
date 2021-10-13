@@ -6,7 +6,7 @@ public class Celular extends Telefone {
 		super("Telefone Celuular");
 	}
 
-	@Override //indicação de método polimorfico(sobrescrita de métodos)
+	@Override //indicação de método polimorfico (sobrescrita de métodos)
 	public void toca(int codigoToque)
 	{
 		switch(codigoToque)

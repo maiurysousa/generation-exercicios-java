@@ -1,6 +1,6 @@
+package Interfaces;
 
 public interface Figuras {
-	
 	public String nomeInterface = "Figuras";
 	
 	abstract public String getNome(); //método abstrato
@@ -10,5 +10,4 @@ public interface Figuras {
 	public double getPerimetro();
 	
 	double getDiagonal();
-	
 }

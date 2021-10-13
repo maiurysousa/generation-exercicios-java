@@ -19,7 +19,7 @@ public class Publico extends Telefone{
 	@Override 
 	public void disca (String numero)
 	{
-		if(numero.charAt(0)=='9' || numero.charAt(0)=='8')//pega uma posição dentro do meu String que vai ser ppassada no parâmetro. Pegar o número do celularr, o primeiro caracter e vai verificar se é 9 ou 8, se sim...
+		if(numero.charAt(0)=='9' || numero.charAt(0)=='8')//pega uma posição dentro do meu String que vai ser passada no parâmetro. Pega o primeiro caracter do número do celular e verifica se é 9 ou 8, se sim...
 		{
 			System.out.println("\nEste telefone não liga para celular");
 		}

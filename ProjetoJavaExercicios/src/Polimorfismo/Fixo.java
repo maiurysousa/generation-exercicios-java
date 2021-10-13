@@ -6,7 +6,7 @@ public class Fixo extends Telefone {
 	{
 		super("Telefone Fixo");
 	}
-	//implemmentando métodos abstratos
+	//implementando métodos abstratos
 	@Override
 	public void toca(int numToques)
 	{

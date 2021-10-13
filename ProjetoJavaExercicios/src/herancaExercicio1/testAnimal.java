@@ -15,8 +15,6 @@ public class testAnimal {
 		Preguica Gertrudes = new Preguica ("Gertrudes",8,"Sim","Sim, até 2m");
 		
 		Gertrudes.imprimirInfo();
-		
-
 
 	}
 

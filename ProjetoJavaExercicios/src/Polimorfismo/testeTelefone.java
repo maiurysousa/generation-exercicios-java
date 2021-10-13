@@ -6,9 +6,9 @@ public class testeTelefone {
 		Celular celular = new Celular();
 		Fixo fixo = new Fixo();
 		Publico publico = new Publico();
-		Telefone telefone = null; //Aqui não está instanciando. está criando uma variável telefone do tipo telefone q tem um valor inicialmente null
+		Telefone telefone = null; //Aqui não está instanciando e sim criando uma variável chamada "telefone" inicialmente com o valor null
 		
-		int n = (int) (Math.random()*3.0);// colocar no n 3 valores  para retornar o múmero//número aleatórios
+		int n = (int) (Math.random()*3.0);// colocar no "n" 3 valores  para retornar múmeros aleatórios
 		
 		System.out.println("\nO número escolhido foi "+n);
 		
