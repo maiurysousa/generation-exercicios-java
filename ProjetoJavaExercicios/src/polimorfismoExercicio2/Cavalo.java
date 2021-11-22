@@ -1,5 +1,4 @@
-package polimorfismoExercicio2;
-
+package PolimorfismoExercicio2;
 	public class Cavalo extends AnimalPoli {
 
 	

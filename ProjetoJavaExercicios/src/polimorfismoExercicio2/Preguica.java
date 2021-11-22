@@ -1,4 +1,4 @@
-package polimorfismoExercicio2;
+package PolimorfismoExercicio2;
 
 	public class Preguica extends AnimalPoli {
 		
